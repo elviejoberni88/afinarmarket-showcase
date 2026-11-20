@@ -31,6 +31,16 @@ afinarmarket conecta músicos que quieren vender, comprar o permutar instrumento
   <img src="screenshots/home-mobile.png" width="300" alt="Vista móvil" />
 </p>
 
+## Documentación técnica
+
+Arquitectura, modelo de datos, API, seguridad y despliegue: [docs/technical-overview.md](docs/technical-overview.md).
+
+## Pruebas y calidad
+
+- **527 tests automatizados**: 304 de API y 223 de web.
+- Pipeline de GitHub Actions en cada push: tests, ESLint, formato y build.
+- Verificación post-despliegue de healthcheck, búsqueda y migraciones.
+
 ## Stack
 
 - **Frontend:** React + TypeScript + Vite + Tailwind CSS
